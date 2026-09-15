@@ -1,5 +1,5 @@
 //perform CRUD operation on file using fs(file system) module
-const fs = require ("fs");
+// const fs = require ("fs");
 
 
 
@@ -54,6 +54,6 @@ const fs = require ("fs");
 
 // part4
 // delete the file
-fs.unlink("student.txt",(err)=>{
-    if(err) throw err;
-})
+// fs.unlink("student.txt",(err)=>{
+//     if(err) throw err;
+// })
